@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Olá, esta é a sua mensagem exibida na página web!"
+    return "Olá, este CI/CD foi desenvolvido por Júlio.O mais lindo da Avanade.!"
 
 if __name__ == '__main__':
     app.run(debug=True)
