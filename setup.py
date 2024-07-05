@@ -10,7 +10,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'my_app = my_app.main:main',
+            'hello_world = hello_world.main:main',
         ],
     },
 )
